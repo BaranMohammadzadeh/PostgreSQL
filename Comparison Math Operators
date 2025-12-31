@@ -1,0 +1,65 @@
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  area > 5000;
+
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  area <> 8223;
+
+
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  area = 8223;
+
+
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  area BETWEEN 4000 AND 9000;
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  name IN ('Tokyo', 'Delhi');
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  name NOT IN ('Tokyo', 'Delhi');
+
+
+
+SELECT
+  name,
+  area
+FROM
+  cities
+WHERE
+  area != 8223 OR name = 'Tokyo';
+
+
+
