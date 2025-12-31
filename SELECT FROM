@@ -1,0 +1,3 @@
+SELECT * FROM cities;
+SELECT name, country FROM cities;
+SELECT name, name, population FROM cities;
