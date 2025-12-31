@@ -1,0 +1,2 @@
+SELECT name ||', '||manufacturer AS discription FROM phones;
+SELECT CONCAT(name, ', ', manufacturer) AS description FROM phones;
