@@ -1,0 +1,6 @@
+CREATE TABLE cities (
+  Name VARCHAR(50),
+  Country VARCHAR(50),
+  Area NUMBER,
+  Population NUMBER
+);
