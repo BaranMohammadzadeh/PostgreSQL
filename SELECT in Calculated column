@@ -1,0 +1,7 @@
+SELECT
+  name,
+  population / area AS density
+FROM
+  cities
+WHERE
+  population / area > 5000;
