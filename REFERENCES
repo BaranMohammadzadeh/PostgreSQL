@@ -1,0 +1,14 @@
+CREATE TABLE photos (
+  id SERIAL PRIMARY KEY,
+  url VARCHAR(200),
+  user_id INTEGER REFERENCES users(id)
+);
+
+
+INSERT INTO
+  photos (url, user_id)
+VALUES
+  ('http://img1.ipg', 4),
+  ('http://img2.ipg', 4),
+  ('http://img3.ipg', 1),
+  ('http://img4.ipg', 2);
